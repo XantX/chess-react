@@ -1,0 +1,16 @@
+.table{
+  display: flex;
+  justify-content: center;
+}
+.board {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  height: 800px;
+  flex-wrap: wrap;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  background: gray;
+}
